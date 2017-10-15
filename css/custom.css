@@ -1,0 +1,106 @@
+.navbar {
+  background: transparent;
+  margin: 0;
+}
+.navbar .navbar-nav {
+  background: transparent;
+  margin: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5) ;
+}
+.navbar-light .navbar-nav.active > .nav-link {
+  color: blue;
+}
+.navbar-brand img {
+  width:150px;
+}
+/*        Home page Styling  */
+
+#home-landing {
+   background-image:url('../img/home-bannar.png');
+   padding: 5% 0%;
+}
+#home-landing p,#home-landing h1{
+  margin: 5% 0%;
+}
+.landing-details {
+   margin-top: 200px;
+}
+#home-iotw {
+  background-image: url("../img/home-bannar.png");
+  height: 500px;
+}
+#home-iotw h2 {
+  color: #3D9EE3;
+  padding: 2%
+}
+
+
+/*                PROJECTS PAGE    STYLING       */
+
+
+
+
+
+
+/*            PARTICIPANT PAGE STYLING        */
+
+
+
+
+
+/*            PAST INTENSHIP PAGE STYLING    */
+
+
+
+
+
+/*            BLOG PAGE STYLING             */
+
+
+
+
+
+/*         BLOG POST PAGE STYLING    */
+
+
+
+
+/*          LIBRARY PAGE   STYLING          */
+
+
+
+/*            SUPPORTERS   SRYLING   */
+
+
+
+/*          ABOUT PAGE STYLING    */
+
+
+/*          CONTACT PAGE STYLING */
+
+
+
+/*          404 PAGE  STYLING */
+
+
+
+/*          TASK PAGE STYLING   */
+
+/*    FOOTER STYLING  */
+footer {
+  background: #3D9EE3;
+  padding: 2% 2%;
+  color: #FFFFFF;
+}
+footer form {
+  margin-top:50%; 
+}
+footer form .form-control{
+  font-size:14px;  
+  padding: 3%;
+}
+footer form input[type='submit'].form-control{
+  color:#FFFFFF;  
+}
