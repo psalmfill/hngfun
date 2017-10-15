@@ -1,3 +1,8 @@
+h2 {
+  color: #3D9EE3;
+  padding: 2%
+  font-size:14px;
+}
 .navbar {
   background: transparent;
   margin: 0;
@@ -23,6 +28,10 @@
 #home-landing {
    background-image:url('../img/home-bannar.png');
    padding: 5% 0%;
+    background-size:100%;
+}
+#home-landing img {
+  width: 100%;
 }
 #home-landing p,#home-landing h1{
   margin: 5% 0%;
@@ -30,16 +39,65 @@
 .landing-details {
    margin-top: 200px;
 }
+.home-participant {
+  position: absolute;
+  top: 200px;
+  font-size: 24px;
+}
+.home-participant span {
+  color: #F9B202;
+  font-size: 72px;
+  font-weight: bold;
+}
+.home-about img{
+  width: 60%;
+}
 #home-iotw {
   background-image: url("../img/home-bannar.png");
   height: 500px;
 }
-#home-iotw h2 {
-  color: #3D9EE3;
-  padding: 2%
+.home-git {
+  padding: 4%;
+  margin-top: 50px;
+}
+.home-git p {
+  padding: 2%;
+  float: left;
+}
+.home-git address div >p {
+  width: 80%;
+}
+.home-git i {
+  display: block;
+  float: left;
+  margin: 3%;
+}
+.clearfix {
+  clear:both;
 }
 
-
+.contact-form {
+  width:390px;
+  background: #FFFFFF;
+  height:auto;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  position:absolute;
+  right:230px;
+  margin-top:8%;
+  box-shadow: -5px -5px 5px   rgba(0, 0, 0, 0.25);
+  padding: 5%;
+  border-radius: 10px;
+  padding-bottom: 2%;  
+}
+.contact-form form{
+ 
+}
+.contact-form .form-control {
+  margin: 10% 0%;
+}
+.contact-form textarea {
+  height: 200px;
+}
 /*                PROJECTS PAGE    STYLING       */
 
 
@@ -103,7 +161,47 @@ footer form {
 footer form .form-control{
   font-size:14px;  
   padding: 3%;
+  margin: 1%;
 }
 footer form input[type='submit'].form-control{
   color:#FFFFFF;  
+}
+@media all and (max-width: 765px){
+  .navbar {
+  background:#FFFFFF ;
+  margin: 0;
+}
+  .home-about img {
+    width: 100%
+  }
+  .home-about h2 {
+    width: 100%;
+    font-size: 30px;
+    border-bottom: 2px solid #3D9EE3;
+    padding-bottom: 2%;
+  }
+  .contact-form {
+    right:0;
+    width: 96%;
+    box-shadow: none;
+    position: relative;
+    margin: 2%;
+    margin-bottom: 5%;
+    padding: 10%;
+  }
+  .contact-form input[type='submit'] {
+    margin-bottom: 2%; 
+  }
+
+  footer {
+    margin-top: 4%;
+  }
+  footer form {
+  margin-top:2%; 
+  }
+  footer form .form-control{  
+  padding: 3%;
+  margin-left: -0.2%;
+  }
+
 }
