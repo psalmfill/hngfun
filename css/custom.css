@@ -13,7 +13,10 @@
   color: blue;
 }
 .navbar-brand img {
-  width:150px;
+  width:100px;
+}
+.content {
+  margin-top:80px; 
 }
 /*        Home page Styling  */
 
