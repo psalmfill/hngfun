@@ -160,6 +160,42 @@ h2 {
 
 /*            SUPPORTERS   SRYLING   */
 
+    .supporters-bg {
+      background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),
+      url('./img/C-BcomiW0AIrdsi.png');
+      overflow: hidden;
+      background-size: cover; 
+      background-attachment: fixed; 
+      width: 100%; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      padding-bottom: 80px;
+    }
+
+     .supporters-bg__h1{
+      font-size: 60px; 
+      margin: 40px; 
+      line-height: 70px;
+    }
+
+    .supporters-bg__image {
+      margin: 0 auto;
+      padding: 45px 90px;
+    }
+
+    .supporters-bg__image {
+      filter: grayscale(1);
+      transition: all .5s ease-in-out;
+      -webkit-filter: grayscale(1);       
+      -webkit-transition: all .5s ease-in-out;  
+    }
+
+    .supporters-bg__image:hover {
+      filter: none;
+      transform: scale(1.02);
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.02);
+    }
 
 
 /*          ABOUT PAGE STYLING    */
