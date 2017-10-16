@@ -210,6 +210,48 @@ h2 {
 
 
 /*          TASK PAGE STYLING   */
+    #fstimage{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .img-circle {
+        border-radius: 50%;
+    }
+    #picsearch{
+        height: 30px;
+        width: 30px;
+        background: transparent;
+    }
+    .bigHr {
+        background-color: black !important;
+        color: dimgrey !important;
+        border: thin .5px black !important;
+        height: 1px !important;
+        width: 280px !important;
+        border-style: 
+    }
+/*-- Search Button --*/
+    .btn-search {
+        background: #424242;
+        border-radius: 0;
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #1c1c1c;
+        }
+    .btn-search:link, .btn-search:visited {
+        color: #fff;
+        }
+    .btn-search:active, .btn-search:hover {
+        background: #1c1c1c;
+        color: #fff;
+        }
+    #icon{
+        border: none;
+        border-bottom: 1px solid gainsboro;
+        outline: 0;
+        }
 
 /*    FOOTER STYLING  */
 
