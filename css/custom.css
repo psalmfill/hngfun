@@ -281,11 +281,112 @@ h2 {
 /*          ABOUT PAGE STYLING    */
 
 
+   
+    .about-us{
+      background-image: url("https://res.cloudinary.com/aiyfee/image/upload/v1508155579/aboutus_g2tqxx.png");
+
+      background-size: cover; 
+      width: 100%; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      padding: 150px 0px;
+      margin-top: 80px;
+
+    }
+
+    .about-ourstory{
+      background-image: url(https://res.cloudinary.com/aiyfee/image/upload/e_contrast:-100/v1508155580/ourstory_i2he3i.png);
+      background-size: 100%;
+      height: 150vh;
+}
+    .about-p-header{
+      margin-top: 20px;
+      color:#3D9EE3 ;
+      font-size: 1.5rem;
+   
+
+    }
+    .about-p-detail{
+      color: #666666;
+      font-size: 1.0rem;
+      margin-bottom: 20px;
+  
+    }
+    .about-p{
+      text-align: center;
+      font-weight: normal;
+    }
+    .about-ourstory{
+      background-image: url(https://res.cloudinary.com/aiyfee/image/upload/e_contrast:-100/v1508155580/ourstory_i2he3i.png);
+      background-size: 100%;
+      height: 150vh;
+      color: #FFFFFF;
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+
+    }
+    .about-ourstory-p{
+      
+       text-align: left;
+
+      
+    }
+
+     .about-ourstory-header{
+      font-size: 2.0rem;
+      text-align: left;
+     }
+
+      .about-ourstory-detail{
+        font-size: 1.0rem;
+        text-align: left;
+      }
+
+
 /*          CONTACT PAGE STYLING */
 
 
 
 /*          404 PAGE  STYLING */
+
+      .a404 {
+        position: relative;
+        margin-top: 150px;
+        border-top: 1px solid #007bca;
+        border-bottom: 1px solid #007bca; 
+        margin-top: 50px;     
+      }
+
+      .bg404 {        
+        background-image: url(file:///C:/Users/user/desktop/hngfunsite-master/img/404.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        height: 300px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+
+      .h2404 {
+        position: relative;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 90px;
+      }
+
+      .h3404 {
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 60px;
+      }
+
+      .img404 {
+
+      }
 
 
 
