@@ -162,7 +162,7 @@ h2 {
 
     .supporters-bg {
       background: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),
-      url('./img/C-BcomiW0AIrdsi.png');
+      url('../img/supporters-bg.png');
       overflow: hidden;
       background-size: cover; 
       background-attachment: fixed; 
