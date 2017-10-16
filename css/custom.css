@@ -272,6 +272,42 @@ h2 {
 
 /*          404 PAGE  STYLING */
 
+      .a404 {
+        position: relative;
+        margin-top: 150px;
+        border-top: 1px solid #007bca;
+        border-bottom: 1px solid #007bca; 
+        margin-top: 50px;     
+      }
+
+      .bg404 {        
+        background-image: url(file:///C:/Users/user/desktop/hngfunsite-master/img/404.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        height: 300px;
+        margin-top: 100px;
+        margin-bottom: 50px;
+      }
+
+      .h2404 {
+        position: relative;
+        text-align: center;
+        font-size: 50px;
+        padding-top: 90px;
+      }
+
+      .h3404 {
+        position: relative;
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 60px;
+      }
+
+      .img404 {
+
+      }
+
 
 
 /*          TASK PAGE STYLING   */
