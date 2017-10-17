@@ -13,9 +13,10 @@ h2 {
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.5) ;
+  font-size: 18px;
 }
-.navbar-light .navbar-nav.active > .nav-link {
-  color: blue;
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #3D9EE3;
 }
 .navbar-brand img {
   width:100px;
@@ -425,6 +426,25 @@ h2 {
 
 
 /*          TASK PAGE STYLING   */
+.taskpage-header {
+  background-image: url('../img/group.png');
+  background-size: cover;
+  height: 300px;
+  text-align: center;
+}
+.taskpage-header div {
+  width: 100%;
+  height: 100%;
+  background-color:  rgba(0,0,0,0.3);
+
+}
+.taskpage-header h1 {
+  position: absolute;
+  color: #FFFFFF;
+  top: 300px;
+  width: 100%;
+  font-size: 80px;
+}
 #searchbox {
   width:90%;
   height: 80px;
