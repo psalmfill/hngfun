@@ -395,7 +395,85 @@ h2 {
 
 
 
-/*          TASK PAGE STYLING   */
+/*     TASK PAGE STYLING   */
+ /*-- Top Image --*/
+    .fstimage{
+        height: 500px;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: -50px;
+    }
+    /*-- Rounded Image --*/
+    .img-circle {
+    border-radius: 50%;
+    }
+    /*-- Search @ 2nd layer --*/
+    .form_search{
+    width: 95%;
+    border-style: none;
+    height: 40px;
+    border-bottom: 1px solid gainsboro;
+    }
+    /*-- Search Picture @ 2nd layer --*/
+    #picsearch{
+        height: 30px;
+        width: 30px;
+        background: transparent;
+    }
+    .bigHr {
+        background-color: black !important;
+        color: dimgrey !important;
+        border: thin .5px black !important;
+        height: 1px !important;
+        width: 280px !important;
+        border-style: 
+    }
+    /*-- Search Button --*/
+    .btn-search {
+        background: #424242;
+        border-radius: 0;
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #1c1c1c;
+        }
+    .btn-search:link, .btn-search:visited {
+        color: #fff;
+        }
+    .btn-search:active, .btn-search:hover {
+        background: #1c1c1c;
+        color: #fff;
+        }
+    #icon{
+        border: none;
+        border-bottom: 1px solid gainsboro;
+        outline: 0;
+        }
+    #search{
+        height: 30px;
+        width: 30px;
+    }
+    /*-- Modal --*/
+     .modal-header, .firsthead, .close {
+          background-color: #3D9EE3;
+          color:white !important;
+          text-align: left;
+          font-size: 30px;
+      }
+      .modal-footer {
+          background-color: #f9f9f9;
+      }
+    /*-- Modal Buttons --*/
+    #myBtn, #myBtn2, #myBtn3, 
+    #myBtn4, #myBtn5, #myBtn6{
+        height: 35px;
+        width: 230px;
+        color: #3D9EE3;
+        font-size: 15px;
+        background: transparent;
+        border: .5px solid;
+        border-style: 1px #3D9EE3;
+    }
 
 /*    FOOTER STYLING  */
 
