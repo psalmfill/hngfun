@@ -496,6 +496,9 @@ footer form input[type='submit'].form-control{
   background:#FFFFFF !important;
   margin: 0;
 }
+  .navbar-nav .social-media .nav-item {
+    display: inline-block;
+  }
   .home-about img {
     width: 100%
   }
