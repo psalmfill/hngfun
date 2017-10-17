@@ -31,6 +31,7 @@ h2 {
    background-image:url('../img/home-bannar.png');
    padding: 5% 0%;
     background-size:100%;
+    background-repeat: no-repeat;
 }
 #home-landing img {
   width: 100%;
@@ -492,7 +493,7 @@ footer form input[type='submit'].form-control{
 }
 @media all and (max-width: 765px){
   .navbar {
-  background:#FFFFFF ;
+  background:#FFFFFF !important;
   margin: 0;
 }
   .home-about img {
@@ -502,7 +503,16 @@ footer form input[type='submit'].form-control{
     width: 100%;
     font-size: 30px;
     border-bottom: 2px solid #3D9EE3;
+    padding: 0;
     padding-bottom: 2%;
+
+  }
+  .home-participant {
+    position: static;
+    text-align: center;
+  }
+  .home-participant span {
+    display: block;
   }
   .contact-form {
     right:0;
