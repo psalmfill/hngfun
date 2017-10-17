@@ -138,15 +138,27 @@ h2 {
 
 
 /*            PAST INTENSHIP PAGE STYLING    */
-<<<<<<< HEAD
+
 .pastIntern-headerbg {
-  background-image: url('http://res.cloudinary.com/okonalbert/image/upload/v1508150475/header_bg.png');
+  background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  height: 500px;
+  margin:0;
 }
-.pastIntern-headerbg img {
+.pastIntern-headerbg div {
   width: 100%;
+  height: 100%;
+  background-color:  rgba(0,0,0,0.5);
+}
+.pastIntern-header  {
+  width: 100%;
+  color: #FFFFFF;
+  top:300px;
+  position: absolute;
+  font-size: 80px;
+  text-align: center;
+
 }
 .pastIntern-headertext {
   text-align: right;
@@ -154,7 +166,7 @@ h2 {
   margin-top: 40%;
   margin-bottom: 5%;
 }
-.pastIntern-headertext h1 {
+.pastIntern-headertext h2 {
   font-family: Exo 2;
   font-weight: bold;
   color: white;
@@ -199,28 +211,22 @@ h2 {
   font-style: normal;
   font-weight: 100;
   line-height: normal;
-  font-size: 25px;
   text-align: justify;
   color: #000000;
 }
 .pastIntern-col-1 img {
   width: 100%;
-  height: 60vh;
 }
-.pastIntern-col-1 h1 {
+.pastIntern-col-1 h2 {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
-  font-size: 50px;
   color: #3D9EE3;
 }
 .pastIntern-col-1 p {
   font-family: Lato;
   font-style: normal;
-  font-weight: normal;
-  line-height: 45px;
-  font-size: 25px;
   text-align: justify;
   color: #656565;
 }
@@ -247,10 +253,6 @@ h2 {
   border-radius: 10px;
   color: #FDFBFB;
 }
-=======
-
-
->>>>>>> 87be2250975564544a1c18328c1b207b2a871860
 
 
 
@@ -365,6 +367,30 @@ h2 {
 
 
 /*          TASK PAGE STYLING   */
+#searchbox {
+  width:90%;
+  height: 80px;
+  border: 0;
+  border-bottom: 1px solid #999999;
+  font-size: 25px;
+  margin-bottom: 4%;
+}
+.project-card:hover {
+  cursor: pointer;
+}
+.project-card .project-title {
+  color:#4F4F4F;
+}
+.project-card .project-date {
+  color:#828282;
+  font-size: 20px;
+}
+.project-card .project-card-block img{
+  float: left; 
+  margin-right: 2%;
+  border-radius: 50%;
+}
+.project-card .project-card-block h5 {}
 
 /*    FOOTER STYLING  */
 

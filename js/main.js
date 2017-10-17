@@ -12,4 +12,32 @@ $(document).ready(function(){
        }
    });
     }
+    //    TASK PAGE SCRIPT
+   $(".project-card").click(function(){
+      var num = $(this).attr('id');
+      var numberPattern = /\d+/g;
+
+      var mod = num.match( numberPattern );
+     $('#myModal'+mod).modal();
+      });
+    //    PROJECT PAGE SCRIPT
+    $("#profile").hover(function(){
+      $("#prof-info").slideToggle("slow");
+    });
+    $("#crypto").hover(function(){
+      $("#cryp-info").slideToggle("slow");
+    });
+    $("#droid").hover(function(){
+      $("#droid-info").slideToggle("slow");
+    });
+    $("#app").hover(function(){
+      $("#app-info").slideToggle("slow");
+    });
+    $("#finance").hover(function(){
+      $("#finance-info").slideToggle("slow");
+    });
+    $("#carhire").hover(function(){
+      $("#carhire-info").slideToggle("slow");
+    });
+
 });
