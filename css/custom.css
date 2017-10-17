@@ -145,11 +145,12 @@ h2 {
   background-repeat: no-repeat;
   height: 500px;
   margin:0;
+  padding: 0;
 }
 .pastIntern-headerbg div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.5);
+  background-color:  rgba(0,0,0,0.8);
 }
 .pastIntern-header  {
   width: 100%;
@@ -312,8 +313,60 @@ h2 {
 
 
 /*          ABOUT PAGE STYLING    */
+.about-us {
+  background-image: url('../img/pastintern.png');
+  height: 300px;
+  text-align: center;
+}
+.about-us div {
+  background:rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
 
+}
+.about-us h1 {
+  width: 100%;
+  color: #FFFFFF;
+  top:200px;
+  position: absolute;
+  font-size: 80px;
+  text-align: center;
 
+}
+.m-text {
+  width: 60%;
+  margin: 0 auto;
+}
+.about-2 {
+  padding:5%;
+  text-align: center;
+}
+.about-2 h2 {
+  width: 90%;
+  height: 80px;
+}
+.about-2 p {
+  margin: 2%
+}
+.about-ourstory {
+  background-image: url('../img/about2.png');
+  height: 500px;
+  background-size: 100%;
+  padding: 0;
+}
+.about-ourstory .about-cover {
+  background:rgba(225,225,225,0.4);
+  height: 100%;
+}
+.our-story {
+  position: absolute;
+  left: 50px;
+  top:900px;
+  color: #FFFFFF !important;
+}
+.our-story h2 {
+  color: #FFFFFF !important;
+}
 /*          CONTACT PAGE STYLING */
 
 
