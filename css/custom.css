@@ -165,6 +165,10 @@ h2 {
         font-size: 23px;
         color: #828282;
       }
+      .profile img{
+        width: 100%;
+        border-radius: 50%;
+      }
       #sort{
         color: #4f4f4f;
       }
@@ -257,21 +261,21 @@ h2 {
   background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   margin:0;
   padding: 0;
 }
 .pastIntern-headerbg div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.8);
+  background-color:  rgba(0,0,0,0.7);
 }
 .pastIntern-header  {
   width: 100%;
   color: #FFFFFF;
-  top:300px;
+  top:350px;
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 
 }
@@ -459,8 +463,22 @@ h2 {
 .recent-comment >i:before {
   content: "~ ";
 }
-
-
+.blog-pagination ul {
+  list-style: none;
+  text-align: center;
+}
+.blog-pagination ul li{
+  display: inline-block;
+  padding: 1%
+  margin:1%;
+  width: 2em;
+}
+.blog-pagination ul .active >a {
+  background-color: #F9B202;
+  color: #FFFFFF;
+  display: block;
+  border-radius: 50%;
+}
 
 
 
@@ -647,9 +665,9 @@ h2 {
 .taskpage-header h1 {
   position: absolute;
   color: #FFFFFF;
-  top: 300px;
+  top: 250px;
   width: 100%;
-  font-size: 80px;
+  font-size: 60px;
 }
 #searchbox {
   width:90%;
