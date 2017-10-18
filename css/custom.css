@@ -360,6 +360,10 @@ h2 {
 
 /*          LIBRARY PAGE   STYLING          */
 
+.img-circle {
+    border-radius: 70%;
+}
+
 
 
 /*            SUPPORTERS   SRYLING   */
