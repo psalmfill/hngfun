@@ -135,8 +135,120 @@ h2 {
 
 /*            PARTICIPANT PAGE STYLING        */
 
-
-
+      .headerColor{
+        background-color: #2092e3;
+        color: #ffffff;
+        margin-top: 0em;
+      }
+      #HIP{
+        margin-top: 30px;
+      }
+      .headerText{
+        font-size: 25px;
+      }
+      #search{
+        margin-left: 20em;
+        margin-bottom: 1em;
+        margin-top: 2em;
+      }
+      #searchbutton{
+        border-radius: 0px 12px 12px 0px;
+        background-color: #14acf2;
+        border-style: none;
+        color: #ffffff;
+      }
+      #textHolder{
+        height: 50px;
+      }
+      .about{
+        margin-top: 1em;
+        font-size: 23px;
+        color: #828282;
+      }
+      #sort{
+        color: #4f4f4f;
+      }
+      .display{
+        padding-left: 40px;
+      }
+      #dropdownMenuButton{
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+            color: #000000;
+      }
+      .card-text{
+        font-weight: bolder;
+      }
+        .card-text2{
+            color: #828282;
+        }
+        #profile{
+            border-radius: 25px;
+            box-shadow: 0px 6px 6px 6px #e9e9e9;
+            background-color: #f2f2f2;
+            border-style: none;
+            height: 350px;
+            width: 290px;
+        }
+        .fonta{
+            color: #2092e3;
+        }
+        .details{
+            padding-left: 1em;
+        }
+        .profileRow{
+            margin-top: 40px;
+        }
+        .pageChange{
+            margin-top: 35px;
+            margin-right: 1em;
+        }
+        .navbar{
+            background-color: #ffffff;
+        }
+              .bg-image{
+        background-image: url(img/backimage.png);
+        height: 600px;
+      }
+      #headertext{
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: -1em;
+      }
+      #textHolder{
+        height: 70px;
+        border-radius: 12px 0px 0px 12px;
+      }
+      .mapfont{
+        color: #fbc031;
+      }
+      #loc{
+        color: #000000;
+      }
+      .proRow{
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+      #logo{
+        margin-top: 5em;
+      }
+      #username{
+        font-weight: lighter;
+      }
+      .card-img-top{
+        margin-top: 7px;
+      }
+      #Participantslist{
+        font-size: 50px;
+        font-weight: bolder;
+        color: #14acf2
+      }
+      #nxt, #no{
+        font-weight: bolder;
+        font-size: 20px;
+      }
 
 
 /*            PAST INTENSHIP PAGE STYLING    */
