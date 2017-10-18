@@ -319,6 +319,7 @@ h2 {
   background-image: url('../img/pastintern.png');
   height: 300px;
   text-align: center;
+  margin-bottom: 2%;
 }
 .about-us div {
   background:rgba(0,0,0,0.6);
@@ -331,7 +332,7 @@ h2 {
   color: #FFFFFF;
   top:200px;
   position: absolute;
-  font-size: 80px;
+  font-size: 50px;
   text-align: center;
 
 }
@@ -517,6 +518,9 @@ footer form input[type='submit'].form-control{
   .home-participant span {
     display: block;
   }
+  .home-git >p {
+    text-align: justify;
+  }
   .contact-form {
     right:0;
     width: 96%;
@@ -529,6 +533,46 @@ footer form input[type='submit'].form-control{
   .contact-form input[type='submit'] {
     margin-bottom: 2%; 
   }
+  /*      About Page      */
+  .about-us {
+    height: 100px;
+  }
+  .about-us h1 {
+  top:100px;
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+
+}
+  .m-text {
+    width: 96%;
+    text-align: justify;
+  }
+  .about-2 h2 {
+    width: 100%;
+    height: auto
+  }
+  .about-2 p{
+    width: 100%;
+  }
+  .about-ourstory {
+  background-image: url('../img/about2.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.about-ourstory .about-cover {
+  background:rgba(0,0,0,0.6);
+  height: 100%;
+}
+.our-story {
+  position: absolute;
+  top:900px;
+  left: 1%;
+  color: #FFFFFF !important;
+}
+
 
   footer {
     margin-top: 4%;
