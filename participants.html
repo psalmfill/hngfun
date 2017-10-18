@@ -7,9 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <title>Hng fun | Participants</title>
+  <title>Hng fun | Home</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <script type="text/javascript" src="js/jquery.js"></script>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,13 +17,6 @@
         background-image: url(img/backimage.png);
         height: 600px;
       }
-     #drm{
-      border-radius: 50%;
-      margin-top: 1em;
-     }
-     #profiledetails{
-      margin-top: 25px;
-     }
       
 
   </style>
@@ -37,19 +28,19 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse container" id="navbarsExampleDefault">
+    <div class="collapse navbar-collapse main-nav" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="projects.html">Project</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="participants.html">Participants</a>
+        <li class="nav-item active">
+          <a class="nav-link" href="participants.html">Participants <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Past Internship</a>
+          <a class="nav-link" href="past-internship.html">Past Internship</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="blogpage.html">Blog</a>
@@ -71,8 +62,8 @@
         </li>
       </ul>
 
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+      <ul class="navbar-nav ml-auto social-media">
+        <li class="nav-item ">
           <a class="nav-link" href="index.html"><i class="fa fa-facebook-square fa-lg"></i><span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -87,7 +78,6 @@
       </ul>
     </div>
   </nav>
-    </nav>
 
   <!--   main-->
     <!--      first section must be this section -->
@@ -121,44 +111,26 @@
     
 <!--first row starts-->
 <div class ="row proRow">
-<div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
-         <div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
         <div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
+                <div class="card project-card profile">
+                  <div class="profile-img">
+                  </div>
+                  <img src="img/drumz2.jpg" class="img-thumbnail" alt="Participants Image" width="304" height="236">
+                  <div class="card-block project-card-block">
+                    <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                    <p class="card-text2">Web & Software Developer</p>
+                  <div class="row details">
+                    <div class="col-sm-12 text-center">
+                      <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                    </div>
+                  </div>          
+                  </div>
                 </div>
-                <div class="card-block project-card-block" id="profiledetails">
+        </div>
+         <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -168,13 +140,23 @@
                 </div>          
                 </div>
                 </div>
-        </div>
-         <div class="col-md-3">
+        </div> <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
                 </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -190,44 +172,12 @@
 
 <!--second row starts-->
 <div class ="row proRow">
-<div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
-         <div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
         <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                 <!-- <img src="img/drumz2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">-->
+                  <img src="img/drumz2.jpg" class="img-thumbnail" alt="Participants Image" width="304" height="236">
+                 <!-- <img class="card-img-top" src="img/drumz2.jpg" alt="Card image cap" width="110" height="200">-->
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -240,10 +190,34 @@
         </div>
          <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
                 </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
+                </div>
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -255,48 +229,17 @@
                 </div>
         </div>
 </div>
+
 <!--second row ends-->
 
 <!--third row starts-->
 <div class ="row proRow">
-<div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
-         <div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
         <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                 <!-- <img src="img/drumz2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">-->
+                  <img src="img/drumz2.jpg" class="img-thumbnail" alt="Participants Image" width="304" height="236">
+                 <!-- <img class="card-img-top" src="img/drumz2.jpg" alt="Card image cap" width="110" height="200">-->
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -309,10 +252,34 @@
         </div>
          <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
                 </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
+                </div>
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -328,44 +295,12 @@
 
 <!--fourth row starts-->
 <div class ="row proRow">
-<div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
-         <div class="col-md-3">
-                <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
-                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
-                  <p class="card-text2">Web & Software Developer</p>
-                <div class="row details">
-                  <div class="col-sm-12 text-center">
-                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
-                  </div>
-                </div>          
-                </div>
-                </div>
-        </div>
         <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
-                </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                 <!-- <img src="img/drumz2.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236">-->
+                  <img src="img/drumz2.jpg" class="img-thumbnail" alt="Participants Image" width="304" height="236">
+                 <!-- <img class="card-img-top" src="img/drumz2.jpg" alt="Card image cap" width="110" height="200">-->
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -378,10 +313,34 @@
         </div>
          <div class="col-md-3">
                 <div class="card project-card" id="profile">
-                  <div class="text-center">
-                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="230" height="230" id="drm">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
                 </div>
-                <div class="card-block project-card-block" id="profiledetails">
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
+                  <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
+                  <p class="card-text2">Web & Software Developer</p>
+                <div class="row details">
+                  <div class="col-sm-12 text-center">
+                    <i class="fa fa-map-marker mapfont">&nbsp;<span id="loc">Location</span> </i>
+                  </div>
+                </div>          
+                </div>
+                </div>
+        </div> <div class="col-md-3">
+                <div class="card project-card" id="profile">
+                  <img class="img-thumbnail" src="img/drumz2.jpg" alt="Participants Image" width="304" height="236">
+                <div class="card-block project-card-block">
                   <p class="card-text">Elisha Ukpong <span id="username">(@drumzminister)</span></p>
                   <p class="card-text2">Web & Software Developer</p>
                 <div class="row details">
@@ -416,7 +375,6 @@
         </nav>
     </section>
      
-
 <section class="container">
     <div class="row">
       <div class="col-md-6 home-git">
@@ -451,14 +409,12 @@
             <input type="text" name="" placeholder="Your name.." class="form-control">
             <input type="text" name="" placeholder="Your Email.." class="form-control">
             <textarea placeholder="Your message.." class="form-control"></textarea>
-             <input type="submit" name=""  class="btn btn-block btn-primary" value="SEND">
+             <input type="submit" name=""  class="btn btn-block btn-primary" value="submit">
           </form>
       </div>
     </div>
 </section>
-
-
-      <footer>
+ <footer id="footer">
         <div class="">
           <div class="row">
             <div class="col-md-4">
@@ -482,7 +438,6 @@
         
         <p>&copy; 2017. hng.fun reserved</p>
       </footer>
-    </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
