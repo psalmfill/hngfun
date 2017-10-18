@@ -524,7 +524,7 @@ h2 {
 }
 
 .mybackground{
-	background-image: url('../img/Wallmax.png');
+	background-image: url('http://res.cloudinary.com/dmz79kgf0/image/upload/c_scale,w_422/v1508369422/Wallmax_ba5vzb.png');
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
