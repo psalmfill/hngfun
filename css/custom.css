@@ -372,6 +372,94 @@ h2 {
 
 
 /*            BLOG PAGE STYLING             */
+.blog {
+  background-image: url('../img/blog.jpg');
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .cover {
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width: 100%
+}
+.blog-form {
+  position: absolute;
+  right: 100px;
+  top: 360px;
+  width: 50%;
+}
+.blog-form h3 {
+  color: #FFFFFF;
+}
+.blog-form input {
+  margin-left: 1%;
+}
+.blog-form input[type="text"],.blog-form input[type="email"] {
+  background-color: rgba(225,225,02250.5);
+}
+.blog-form input[type="submit"] {
+  width: 100px;
+}
+.posts {
+  padding:2%;
+  margin: 2%;
+  background-color: #EEEEEE;
+}
+.share-social ul {
+  list-style: none;
+  float: right;
+}
+.share-social ul li {
+  display: inline-block;
+}
+.side-bar {
+  padding-top: 5%;
+  padding: 1%
+}
+.side-bar-div {
+  background-color: #EEEEEE;
+  padding: 0;
+  margin-top: 6%;
+ 
+}
+.side-bar-div h3 {
+  width: 100%;
+  background-color: #3D9EE3;
+  color: #FFFFFF;
+  text-align: center;
+}
+.side-bar-div ul {
+  font-size: 12px;
+  margin: 0;
+  margin-left: -5%; 
+}
+.side-bar-div ul li{
+  margin: 1%;
+  list-style: none;
+
+}
+.side-bar-div ul li:before {
+  content:"-  ";
+  color: #F9B202;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+.recent-comment {
+  padding: 2%;
+  margin: 2%;
+  text-align: justify;
+}
+.recent-comment >i {
+  text-align: right !important;
+  font-style: italic;
+  display: block;
+}
+.recent-comment >i:before {
+  content: "~ ";
+}
+
 
 
 
@@ -590,22 +678,22 @@ h2 {
 
 /*    FOOTER STYLING  */
 
-footer {
+#footer {
   margin-top: 20px;
   background: #3D9EE3;
   padding: 2% 2%;
   color: #FFFFFF;
 }
-footer form {
+#footer form {
   margin-top:50%;
   margin-right: 10%;
 }
-footer form .form-control{
+#footer form .form-control{
   font-size:14px;  
   padding: 3%;
   margin: 1%;
 }
-footer form input[type='submit'].form-control{
+#footer form input[type='submit'].form-control{
   color:#FFFFFF;  
 }
 @media all and (max-width: 765px){
@@ -690,13 +778,13 @@ footer form input[type='submit'].form-control{
 }
 
 
-  footer {
+  #footer {
     margin-top: 4%;
   }
-  footer form {
+  #footer form {
   margin-top:2%; 
   }
-  footer form .form-control{  
+  #footer form .form-control{  
   padding: 3%;
   margin-left: -0.2%;
   }
