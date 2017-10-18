@@ -55,3 +55,5 @@ function initMap(){
 		});
 	}
 
+// LIBRARY PAGE SCRIPT
+$('.carousel').carousel();

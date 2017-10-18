@@ -1,14 +1,16 @@
 @font-face {
-    font-family: myFont;
-    src: url('fonts/fontawesome-webfont-v=4.3.0.ttf');
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato');
 }
 body {
-  
+  overflow-x:hidden;
+  font-family: 'Lato', sans-serif;
 }
 
 /*      TOPOGRAPHY  */
 h1 {
   font-size:24px;
+  margin-top: 5%;
 }
 p {
   font-size:16px;
@@ -510,6 +512,21 @@ h2 {
 
 .img-circle {
     border-radius: 70%;
+}
+
+.col-top{
+	padding: 20px;
+}
+
+.slides-container{
+	background-color: #E1E1E1;
+	padding: 30px;
+}
+
+.mybackground{
+	background-image: url('../img/Wallmax.png');
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 
