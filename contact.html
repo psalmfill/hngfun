@@ -79,12 +79,12 @@
   <div class="jumbotron img-responsive col-12 " style="height:300px; background-image:url(img/contact-banner.png); background-size:100% 100%; background-repeat:no-repeat;">
   </div>
 
-  <div class="row" style="margin-top:-10px;">
-    <div class="col-sm-6">
-      <img class="img-responsive" src="img/contact-pic.png" style="width:100%; height:200px;">
+  <div class="row justify-content-center" style="margin-top:-10px;">
+    <div class="col-sm-4">
+      <img class="img-responsive" src="img/contact-pic.png" style="width:100%;height:400px">
      </div>
-    <div class="col-sm-6"> 
-       <img class="img-responsive" src="img/contact-map.png"  style="width:100%; height:200px; margin-left:-7px;">
+    <div class="col-sm-6" id="map" style="width:100%;height:400px;background-color:grey;"> 
+       <!-- <div id="map" style="width:100%;height:400px;background-color:grey;"></div> -->
      </div>
     </div>
   </div>
@@ -177,6 +177,10 @@
     <!--Customize javascript -->
 
    
-    <script type="text/javascript" src="js/main.js"></script>
+   <!--Google maps javascript -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUHuM8G89OCsWXBIHxEF6TnMztGu0c8N4&callback=initMap">
+    </script>
+   <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
