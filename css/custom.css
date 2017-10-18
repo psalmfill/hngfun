@@ -256,21 +256,21 @@ h2 {
   background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   margin:0;
   padding: 0;
 }
 .pastIntern-headerbg div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.8);
+  background-color:  rgba(0,0,0,0.6);
 }
 .pastIntern-header  {
   width: 100%;
   color: #FFFFFF;
-  top:300px;
+  top:350px;
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 
 }
