@@ -1,0 +1,123 @@
+/* Library */
+
+
+.col-special
+{
+   
+    min-height: 300px;
+    padding: 15px;
+    -webkit-border-radius: 0, 0, 5px, 5px;
+    border-radius: 0, 0, 5px, 5px;
+    
+}
+.col-special a
+{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.btn-img
+{
+    margin-left: 10px;
+}
+
+.mydiv
+{
+    margin: 5px auto;
+    text-align: center;
+
+}
+.carousel-inner
+{
+    min-height: 100px;
+    
+}
+.mywrapper
+{
+    background-color: darkgrey;
+}
+
+
+
+.mydiv input
+{
+    margin-left: 50px;
+    border: 0px solid grey;
+    min-height: 50px;
+    width: 150px;
+}
+
+.primary
+{
+    text-align: center;
+    background-color: dodgerblue;
+    color: #fff;
+}
+.primary a
+{
+    color: #fff;
+}
+.col-top
+{
+   text-align: center; 
+   min-height: 250px; 
+}
+.col-bottom
+{
+    text-align: center;
+    min-height: 70px;
+    line-height: 70px;
+    margin-top: -12px;
+    border-radius: 0 0 10px 10px;
+}
+
+.plain
+{
+    text-align: center;
+    background-color: lightgrey;
+    color: #202020;
+    
+}
+.plain a
+{
+    color: #202020;
+}
+.overlay {
+  background-color: rgba(12, 10, 28, 0.75);
+
+}
+symb {
+  border-bottom: white 4px;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  max-height: 100%;
+  height: max-content;
+  padding-top: 10%;
+}
+.text-white {
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5%;
+}
+.symb {
+  border-bottom: 3px solid white;
+  border-radius: 1px;
+}
+
+.srch {
+    margin-right: auto;
+    margin-left: auto;
+    background: #FFFFFF ;
+    border: 2px solid #3D9EE3 ;
+    box-sizing: bord-box;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.srch_icon {
+    background-color: #fff;
+}
