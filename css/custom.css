@@ -156,6 +156,7 @@ h2 {
         background-color: #14acf2;
         border-style: none;
         color: #ffffff;
+        height: 100%;
       }
       #textHolder{
         height: 50px;
