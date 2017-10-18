@@ -39,6 +39,9 @@ h2 {
 #home-landing p,#home-landing h1{
   margin: 5% 0%;
 }
+#home-landing .btn {
+  background-color: #3D9EE3;
+}
 .landing-details {
    margin-top: 200px;
 }
@@ -93,8 +96,8 @@ h2 {
   border-radius: 10px;
   padding-bottom: 2%; 
 }
-.contact-form form{
- 
+.contact-form form .btn{
+  background-color: #3D9EE3;
 }
 .contact-form .form-control {
   margin: 10% 0%;
