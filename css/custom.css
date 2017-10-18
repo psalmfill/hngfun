@@ -459,8 +459,26 @@ h2 {
 .recent-comment >i:before {
   content: "~ ";
 }
+.blog-pagination  {
+   text-align: center;
+}
+.blog-pagination ul {
+  list-style: none;
+ 
+}
+.blog-pagination ul li {
+ display: inline-block;
+ width: 2em;
 
-
+}
+.blog-pagination ul li a{
+  display: block;
+}
+.blog-pagination ul .active >a {
+  background-color: #F9B202;
+  color: #FFFFFF;
+  border-radius: 50%;
+}
 
 
 
@@ -641,15 +659,15 @@ h2 {
 .taskpage-header div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.3);
+  background-color:  rgba(0,0,0,0.5);
 
 }
 .taskpage-header h1 {
   position: absolute;
   color: #FFFFFF;
-  top: 300px;
+  top: 250px;
   width: 100%;
-  font-size: 80px;
+  font-size: 60px;
 }
 #searchbox {
   width:90%;
