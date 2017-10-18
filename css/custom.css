@@ -191,15 +191,13 @@ h2 {
             border-style: none;
             height: 350px;
             width: 290px;
+            margin-right: 0px;
         }
         .fonta{
             color: #2092e3;
         }
         .details{
             padding-left: 1em;
-        }
-        .profileRow{
-            margin-top: 40px;
         }
         .pageChange{
             margin-top: 35px;
