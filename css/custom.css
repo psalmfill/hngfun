@@ -620,3 +620,10 @@ footer form input[type='submit'].form-control{
   }
 
 }
+
+
+/*  CONTACT PAGE STYLING */
+.contact__hero {
+  padding: 0;
+  margin-top: 84px;
+}
