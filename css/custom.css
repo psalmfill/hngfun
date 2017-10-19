@@ -60,8 +60,8 @@ h2 {
   height: 500px;
 }
 .home-git {
-  padding: 4%;
-  margin-top: 50px;
+  padding: 1% 4%;
+  margin-top: 10px;
 }
 .home-git p {
   padding: 2%;
@@ -86,15 +86,14 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.25);
   position:absolute;
   right:270px;
-  margin-top:8%;
-  margin-top:8%;
+  margin-top:1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5% 2% 2% 2%;
   border-radius: 10px;
   padding-bottom: 2%; 
 }
-.contact-form form{
- 
+.contact-form form .btn{
+  background-color: #3D9EE3;
 }
 .contact-form .form-control {
   margin: 10% 0%;
@@ -106,26 +105,26 @@ h2 {
 }
 /*                PROJECTS PAGE    STYLING       */
 .project-card{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-card:hover{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
 }
 
 .project-card-block{
-  padding: 10px 20px;
+	padding: 10px 20px;
 }
 .project-title{
-  color: #3D9EE3;
+	color: #3D9EE3;
 }
 .project-div{
-  background-color: #E1E1E1;
-  padding: 30px;
-  text-align: justify;
-  display: none;
+	background-color: #E1E1E1;
+	padding: 30px;
+	text-align: justify;
+	display: none;
 }
 
 
@@ -134,8 +133,7 @@ h2 {
 
 
 /*            PARTICIPANT PAGE STYLING        */
-
-      .headerColor{
+  .headerColor{
         background-color: #2092e3;
         color: #ffffff;
         margin-top: 0em;
@@ -251,6 +249,9 @@ h2 {
       }
 
 
+
+
+
 /*            PAST INTENSHIP PAGE STYLING    */
 
 .pastIntern-headerbg {
@@ -264,7 +265,7 @@ h2 {
 .pastIntern-headerbg div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.6);
+  background-color:  rgba(0,0,0,0.4);
 }
 .pastIntern-header  {
   width: 100%;
@@ -468,7 +469,8 @@ h2 {
 }
 .blog-pagination ul li {
  display: inline-block;
- width: 2em;
+ width: 1.5em;
+ margin: 1%;
 
 }
 .blog-pagination ul li a{
@@ -478,7 +480,11 @@ h2 {
   background-color: #F9B202;
   color: #FFFFFF;
   border-radius: 50%;
+  font-weight: bold;
 }
+
+
+
 
 
 
@@ -626,27 +632,57 @@ h2 {
         margin-bottom: 50px;
       }
 
-      .h2404 {
-        position: relative;
-        text-align: center;
-        font-size: 50px;
-        padding-top: 90px;
+      #b404 {
+        background-color: #3D9EE3;
       }
 
-      .h3404 {
+      .h2404 {
+        font-family: ubuntu;
         position: relative;
         text-align: center;
-        font-size: 30px;
-        padding-bottom: 60px;
+        font-size: 170px;
+        padding-top: 90px;
+        color: white;
       }
+
+      #h3404 {
+        position: relative;
+        text-align: center;
+        font-size: 64px;
+        color: white;
+        font-family: ubuntu;
+        width: 100%;
+        }
 
       .btn-a {
-        background-color: #14ACF2 !important;
-        border-color: #14ACF2 !important;
-        border-radius: 25px !important;
-        width: 150px;
+        right: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        font-size: 3.0rem;
+        top: 1050px;
+        font-family: ubuntu;
+        display: block;
       }
 
+      .comp {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        position: absolute;
+        top: 550px;
+        right: 0;
+      }
+
+      .nav-white {
+        color: white !important;
+      }
+
+      .fixed top .u-fixed {
+        background-color: white;
+      }
 
 
 /*          TASK PAGE STYLING   */
@@ -659,15 +695,15 @@ h2 {
 .taskpage-header div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.5);
+  background-color:  rgba(0,0,0,0.3);
 
 }
 .taskpage-header h1 {
   position: absolute;
   color: #FFFFFF;
-  top: 250px;
+  top: 300px;
   width: 100%;
-  font-size: 60px;
+  font-size: 80px;
 }
 #searchbox {
   width:90%;
@@ -697,13 +733,12 @@ h2 {
 /*    FOOTER STYLING  */
 
 #footer {
-  margin-top: 20px;
   background: #3D9EE3;
   padding: 2% 2%;
   color: #FFFFFF;
 }
 #footer form {
-  margin-top:50%;
+  margin-top:40%;
   margin-right: 10%;
 }
 #footer form .form-control{
@@ -796,15 +831,22 @@ h2 {
 }
 
 
-  #footer {
+  footer {
     margin-top: 4%;
   }
-  #footer form {
+  footer form {
   margin-top:2%; 
   }
-  #footer form .form-control{  
+  footer form .form-control{  
   padding: 3%;
   margin-left: -0.2%;
   }
 
+}
+
+
+/*  CONTACT PAGE STYLING */
+.contact__hero {
+  padding: 0;
+  margin-top: 84px;
 }
