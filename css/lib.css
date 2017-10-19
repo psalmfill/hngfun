@@ -104,7 +104,7 @@ symb {
 .overlay {
   max-height: 100%;
   height: max-content;
-  padding-top: 10%;
+  padding-top: 102px;
 }
 .text-white {
   margin-right: auto;
