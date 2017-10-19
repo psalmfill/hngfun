@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 
 h2 {
   color: #3D9EE3;
@@ -257,7 +261,6 @@ h2 {
 /*            PAST INTENSHIP PAGE STYLING    */
 
 .pastIntern-headerbg {
-  background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -285,12 +288,14 @@ h2 {
   margin-bottom: 5%;
 }
 .pastIntern-headertext h2 {
-  font-family: Exo 2;
+  /* font-family: Exo 2; */
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: white;
 }
 .pastIntern-headertext span {
-  font-family: Exo 2;
+  /* font-family: Exo 2; */
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -310,7 +315,8 @@ h2 {
   margin-top: 2%;
 }
 .pastIntern-titlebox span {
-  font-family: Exo 2;
+  /* font-family: Exo 2; */
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
@@ -325,7 +331,7 @@ h2 {
   font-weight: 700;
 }
 .pastIntern-col-1 {
-  font-family: Exo 2;
+  /* font-family: Exo 2; */
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -354,7 +360,8 @@ h2 {
 }
 .pastIntern-col-2 {
   padding: 3% 3% 3% 0;
-  font-family: Exo 2;
+  /* font-family: Exo 2; */
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 100;
   line-height: normal;
@@ -639,7 +646,8 @@ h2 {
       }
 
       .h2404 {
-        font-family: ubuntu;
+        /* font-family: ubuntu; */
+        font-family: 'Lato', sans-serif;
         position: relative;
         text-align: center;
         font-size: 170px;
@@ -652,7 +660,8 @@ h2 {
         text-align: center;
         font-size: 64px;
         color: white;
-        font-family: ubuntu;
+        /* font-family: ubuntu; */
+        font-family: 'Lato', sans-serif;
         width: 100%;
         }
 
@@ -665,7 +674,8 @@ h2 {
         position: absolute;
         font-size: 3.0rem;
         top: 1050px;
-        font-family: ubuntu;
+        /* font-family: ubuntu; */
+        font-family: 'Lato', sans-serif;
         display: block;
       }
 
