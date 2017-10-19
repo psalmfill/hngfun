@@ -49,11 +49,19 @@
     width: 150px;
 }
 
+.mybackground
+{
+    background-image: url("http://res.cloudinary.com/fting/image/upload/v1508419942/backgroundmostrecent_tfo5xp.png");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
 .primary
 {
     text-align: center;
     background-color: dodgerblue;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .primary a
 {
@@ -76,9 +84,8 @@
 .plain
 {
     text-align: center;
-    background-color: lightgrey;
-    color: #202020;
-    
+    background-color: rgb(255, 255, 255);
+    color: #202020;   
 }
 .plain a
 {
@@ -121,3 +128,12 @@ symb {
 .srch_icon {
     background-color: #fff;
 }
+
+#footer {
+    margin-top: 4%;
+    background: #3D9EE3;
+  }
+.panel {
+    
+}
+
