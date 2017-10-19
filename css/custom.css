@@ -60,8 +60,8 @@ h2 {
   height: 500px;
 }
 .home-git {
-  padding: 4%;
-  margin-top: 50px;
+  padding: 1% 4%;
+  margin-top: 10px;
 }
 .home-git p {
   padding: 2%;
@@ -86,15 +86,14 @@ h2 {
   border: 1px solid rgba(0, 0, 0, 0.25);
   position:absolute;
   right:270px;
-  margin-top:8%;
-  margin-top:8%;
+  margin-top:1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5% 2% 2% 2%;
   border-radius: 10px;
   padding-bottom: 2%; 
 }
-.contact-form form{
- 
+.contact-form form .btn{
+  background-color: #3D9EE3;
 }
 .contact-form .form-control {
   margin: 10% 0%;
@@ -134,6 +133,120 @@ h2 {
 
 
 /*            PARTICIPANT PAGE STYLING        */
+  .headerColor{
+        background-color: #2092e3;
+        color: #ffffff;
+        margin-top: 0em;
+      }
+      #HIP{
+        margin-top: 30px;
+      }
+      .headerText{
+        font-size: 25px;
+      }
+      #search{
+        margin-left: 20em;
+        margin-bottom: 1em;
+        margin-top: 2em;
+      }
+      #searchbutton{
+        border-radius: 0px 12px 12px 0px;
+        background-color: #14acf2;
+        border-style: none;
+        color: #ffffff;
+        height: 100%;
+      }
+      #textHolder{
+        height: 50px;
+      }
+      .about{
+        margin-top: 1em;
+        font-size: 23px;
+        color: #828282;
+      }
+      #sort{
+        color: #4f4f4f;
+      }
+      .display{
+        padding-left: 40px;
+      }
+      #dropdownMenuButton{
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+            color: #000000;
+      }
+      .card-text{
+        font-weight: bolder;
+      }
+        .card-text2{
+         color: #828282;
+        }
+      .participant-img {
+        height: 250px;
+        padding: 1%;
+        margin: 1%;
+      }
+      .participant-img img {
+        width: 100%;
+         border-radius: 50% ;
+         height: 100%;
+      }
+        .fonta{
+            color: #2092e3;
+        }
+        .details{
+            padding-left: 1em;
+        }
+        .pageChange{
+            margin-top: 35px;
+            margin-right: 1em;
+        }
+        .navbar{
+            background-color: #ffffff;
+        }
+              .bg-image{
+        background-image: url(img/backimage.png);
+        height: 600px;
+      }
+      #headertext{
+        color: #ffffff;
+        font-size: 25px;
+        margin-bottom: -1em;
+      }
+      #textHolder{
+        height: 70px;
+        border-radius: 12px 0px 0px 12px;
+      }
+      .mapfont{
+        color: #fbc031;
+      }
+      #loc{
+        color: #000000;
+      }
+      .proRow{
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+      #logo{
+        margin-top: 5em;
+      }
+      #username{
+        font-weight: lighter;
+      }
+      .card-img-top{
+        margin-top: 7px;
+      }
+      #Participantslist{
+        font-size: 50px;
+        font-weight: bolder;
+        color: #14acf2
+      }
+      #nxt, #no{
+        font-weight: bolder;
+        font-size: 20px;
+      }
 
 
 
@@ -145,21 +258,21 @@ h2 {
   background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   margin:0;
   padding: 0;
 }
 .pastIntern-headerbg div {
   width: 100%;
   height: 100%;
-  background-color:  rgba(0,0,0,0.8);
+  background-color:  rgba(0,0,0,0.4);
 }
 .pastIntern-header  {
   width: 100%;
   color: #FFFFFF;
-  top:300px;
+  top:350px;
   position: absolute;
-  font-size: 80px;
+  font-size: 60px;
   text-align: center;
 
 }
@@ -260,6 +373,117 @@ h2 {
 
 
 /*            BLOG PAGE STYLING             */
+.blog {
+  background-image: url('../img/blog.jpg');
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .cover {
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width: 100%
+}
+.blog-form {
+  position: absolute;
+  right: 100px;
+  top: 360px;
+  width: 50%;
+}
+.blog-form h3 {
+  color: #FFFFFF;
+}
+.blog-form input {
+  margin-left: 1%;
+}
+.blog-form input[type="text"],.blog-form input[type="email"] {
+  background-color: rgba(225,225,02250.5);
+}
+.blog-form input[type="submit"] {
+  width: 100px;
+}
+.posts {
+  padding:2%;
+  margin: 2%;
+  background-color: #EEEEEE;
+}
+.share-social ul {
+  list-style: none;
+  float: right;
+}
+.share-social ul li {
+  display: inline-block;
+}
+.side-bar {
+  padding-top: 5%;
+  padding: 1%
+}
+.side-bar-div {
+  background-color: #EEEEEE;
+  padding: 0;
+  margin-top: 6%;
+ 
+}
+.side-bar-div h3 {
+  width: 100%;
+  background-color: #3D9EE3;
+  color: #FFFFFF;
+  text-align: center;
+}
+.side-bar-div ul {
+  font-size: 12px;
+  margin: 0;
+  margin-left: -5%; 
+}
+.side-bar-div ul li{
+  margin: 1%;
+  list-style: none;
+
+}
+.side-bar-div ul li:before {
+  content:"-  ";
+  color: #F9B202;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+.recent-comment {
+  padding: 2%;
+  margin: 2%;
+  text-align: justify;
+}
+.recent-comment >i {
+  text-align: right !important;
+  font-style: italic;
+  display: block;
+}
+.recent-comment >i:before {
+  content: "~ ";
+}
+.blog-pagination  {
+   text-align: center;
+}
+.blog-pagination ul {
+  list-style: none;
+ 
+}
+.blog-pagination ul li {
+ display: inline-block;
+ width: 1.5em;
+ margin: 1%;
+
+}
+.blog-pagination ul li a{
+  display: block;
+}
+.blog-pagination ul .active >a {
+  background-color: #F9B202;
+  color: #FFFFFF;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+
 
 
 
@@ -508,22 +732,21 @@ h2 {
 
 /*    FOOTER STYLING  */
 
-footer {
-  margin-top: 20px;
+#footer {
   background: #3D9EE3;
   padding: 2% 2%;
   color: #FFFFFF;
 }
-footer form {
-  margin-top:50%;
+#footer form {
+  margin-top:40%;
   margin-right: 10%;
 }
-footer form .form-control{
+#footer form .form-control{
   font-size:14px;  
   padding: 3%;
   margin: 1%;
 }
-footer form input[type='submit'].form-control{
+#footer form input[type='submit'].form-control{
   color:#FFFFFF;  
 }
 @media all and (max-width: 765px){
