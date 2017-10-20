@@ -663,7 +663,15 @@ h2 {
       margin-top: 10px;
       background-image: url(https://placeimg.com/1400/400/tech);
       height: 400px;
+      background-size: cover;
      color: #ffffff;
+  }
+  .img-fluid {
+    width: 100%;
+    margin: 0;
+  }
+  .contact__hero{
+    padding:0;
   }
 
 /*          404 PAGE  STYLING */
@@ -908,8 +916,4 @@ h2 {
 }
 
 
-/*  CONTACT PAGE STYLING */
-.contact__hero {
-  padding: 0;
-  padding-right: 84px;
-  }
+
