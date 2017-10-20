@@ -279,6 +279,7 @@ h2 {
 /*            PAST INTENSHIP PAGE STYLING    */
 
 .pastIntern-headerbg {
+  background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
