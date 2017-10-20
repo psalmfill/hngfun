@@ -509,6 +509,11 @@ h2 {
     border-radius: 70%;
 }
 
+.library-search {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .library-tips {
   background: #E1E1E1;
   padding: 80px 50px;
