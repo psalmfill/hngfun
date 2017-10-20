@@ -514,6 +514,11 @@ h2 {
   padding-bottom: 50px;
 }
 
+.library-carousel {
+  width: 70%;
+  margin: 0 auto
+}
+
 .library-carousel p {
   font-size: 28px;
   line-height: 43px;
@@ -527,7 +532,9 @@ h2 {
 }
 
 .library-tips h2 {
+  margin-top: 30px;
   margin-bottom: 60px;
+  text-transform: capitalize;
 }
 
 .library__hng-text {
