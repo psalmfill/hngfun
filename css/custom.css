@@ -601,6 +601,46 @@ h2 {
       -webkit-transform: scale(1.02);
     }
 
+    .social-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 10px 0;
+    list-style-type: none;
+    line-height: 1.7
+  }
+
+  .social-media li {
+    display: inline;
+  }
+
+  .social-media li a {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .social-media li a:hover {
+    text-decoration: none;
+  }
+
+  .social-media .facebook:hover {
+    color: #3B5999;
+  }
+
+  .social-media .google:hover {
+    color: #ef1a1a;
+  }
+
+  .social-media .twitter:hover {
+    color: #32CCFE;
+  }
+
+  .social-media .instagram:hover {
+    color: #DE2B7C;
+  }
+
 
 /*          ABOUT PAGE STYLING    */
 .about-us {
