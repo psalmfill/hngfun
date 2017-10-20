@@ -72,6 +72,13 @@
    text-align: center; 
    min-height: 250px; 
 }
+
+.col-top span
+{
+   text-align: center; 
+   font-size: 1.4em;
+   padding: 5%; 
+}
 .col-bottom
 {
     text-align: center;
@@ -120,9 +127,8 @@ symb {
     margin-right: auto;
     margin-left: auto;
     background: #FFFFFF ;
-    box-sizing: bord-box;
     border-radius: 10px;
-    margin-top: 5%;
+    margin-top: 0%;
 }
 .srch_icon {
     background-color: #fff;
