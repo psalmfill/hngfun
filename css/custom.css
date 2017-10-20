@@ -45,6 +45,16 @@ h2 {
 #home-landing p,#home-landing h1{
   margin: 5% 0%;
 }
+#home-landing .btn{
+  background-color: #3D9EE3;
+}
+#home-landing .btn:hover{
+  background-color: #FFFFFF;
+  color: #3D9EE3;
+  cursor: pointer;
+  border-color: #3D9EE3;
+
+}
 .landing-details {
    margin-top: 200px;
 }
@@ -97,12 +107,20 @@ h2 {
   padding: 5% 2% 2% 2%;
   border-radius: 10px;
   padding-bottom: 2%; 
+  z-index:1000;
 }
 .contact-form form .btn{
   background-color: #3D9EE3;
 }
+.contact-form form .btn:hover{
+  background-color: #FFFFFF;
+  color: #3D9EE3;
+  cursor: pointer;
+  border-color: #3D9EE3;
+
+}
 .contact-form .form-control {
-  margin: 10% 0%;
+  margin: 5% 0%;
   border: 1px solid #3D9EE3;
 }
 .contact-form textarea {
@@ -745,9 +763,9 @@ h2 {
 .taskpage-header h1 {
   position: absolute;
   color: #FFFFFF;
-  top: 300px;
+  top: 230px;
   width: 100%;
-  font-size: 80px;
+  font-size: 60px;
 }
 #searchbox {
   width:90%;
