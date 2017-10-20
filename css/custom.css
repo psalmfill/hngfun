@@ -279,6 +279,7 @@ h2 {
 /*            PAST INTENSHIP PAGE STYLING    */
 
 .pastIntern-headerbg {
+  background-image: url('../img/pastintern.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
@@ -600,6 +601,46 @@ h2 {
       -webkit-transform: scale(1.02);
     }
 
+    .social-media {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 10px 0;
+    list-style-type: none;
+    line-height: 1.7
+  }
+
+  .social-media li {
+    display: inline;
+  }
+
+  .social-media li a {
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  .social-media li a:hover {
+    text-decoration: none;
+  }
+
+  .social-media .facebook:hover {
+    color: #3B5999;
+  }
+
+  .social-media .google:hover {
+    color: #ef1a1a;
+  }
+
+  .social-media .twitter:hover {
+    color: #32CCFE;
+  }
+
+  .social-media .instagram:hover {
+    color: #DE2B7C;
+  }
+
 
 /*          ABOUT PAGE STYLING    */
 .about-us {
@@ -899,8 +940,85 @@ h2 {
   left: 1%;
   color: #FFFFFF !important;
 }
-
-
+/*      BLOG PAGES  */
+.blog {
+  background-image: url('../img/blog.jpg');
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog .cover {
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+  width: 100%
+}
+.blog-form {
+  position: absolute;
+  top: 150px;
+  width: 80%;
+  right: 20px;
+}
+.blog-form h3 {
+  color: #FFFFFF;
+}
+.blog-form input {
+  margin-left: 1%;
+}
+.blog-form input[type="text"],.blog-form input[type="email"] {
+  background-color: rgba(225,225,02250.5);
+}
+.blog-form input[type="submit"] {
+  width: 100px;
+}
+.share-social ul {
+  margin: 0;
+}
+.side-bar {
+  padding-top:1%;
+  padding: 1%
+}
+.side-bar-div {
+  background-color: #EEEEEE;
+  padding: 0;
+  margin-top: 6%;
+ 
+}
+.recent-comment {
+  padding: 2%;
+  margin: 2%;
+  text-align: justify;
+}
+.recent-comment >i {
+  text-align: right !important;
+  font-style: italic;
+  display: block;
+}
+.recent-comment >i:before {
+  content: "~ ";
+}
+.blog-pagination  {
+   text-align: center;
+}
+.blog-pagination ul {
+  list-style: none;
+  padding: 0;
+ 
+}
+/*   LIBRARY */
+.slides-container {
+  height: 100%;
+}
+.library-carousel {
+  width: 100%;
+  margin: 0 auto
+}
+.library-carousel p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.intern-article {
+  border-bottom: 1px solid #999999;
+}
   #footer {
     margin-top: 4%;
   }
