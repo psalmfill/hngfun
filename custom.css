@@ -159,7 +159,11 @@ h2 {
 
 /*          LIBRARY PAGE   STYLING          */
 
-
+.library-tips {
+  background: #E1E1E1;
+	padding: 80px 50px;
+	margin-top: 50px;
+}
 
 /*            SUPPORTERS   SRYLING   */
 
