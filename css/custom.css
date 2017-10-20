@@ -43,7 +43,7 @@ h2 {
   width: 100%;
 }
 #home-landing p,#home-landing h1{
-  margin: 5% 0%;
+  margin: 2% 0%;
 }
 #home-landing .btn{
   background-color: #3D9EE3;
@@ -65,7 +65,7 @@ h2 {
 }
 .home-participant span {
   color: #F9B202;
-  font-size: 72px;
+  font-size: 70px;
   font-weight: bold;
 }
 .home-about img{
